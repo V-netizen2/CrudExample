@@ -16,7 +16,7 @@ namespace CrudTests
 
         public CountriesServiceTest()
         {
-            _countriesService = new CountriesService();
+            _countriesService = new CountriesService(false);
         }
         #region AddCountry
         [Fact]
