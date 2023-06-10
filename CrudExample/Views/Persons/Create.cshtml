@@ -71,7 +71,7 @@
                 <select asp-for="CountryID" class="form-input" asp-items="@ViewBag.Countries">
                     <option value="">Please Select</option>
                 </select>
-                <span asp-validation-for="Country" class="text-red"></span>
+                <span asp-validation-for="CountryID" class="text-red"></span>
             </div>
         </div>
 
@@ -92,9 +92,9 @@
             <div class="w-25">
             </div>
             <div class="flex-1">
-                <input asp-for="ReceiveNewsLetters" value="true" />
-                <label asp-for="ReceiveNewsLetters" class="form-label">Receive News Letters</label>
-                <span asp-validation-for="ReceiveNewsLetters" class="text-red"></span>
+                <input asp-for="RecieveNewsLetters" value="true" />
+                <label asp-for="RecieveNewsLetters" class="form-label">Receive News Letters</label>
+                <span asp-validation-for="RecieveNewsLetters" class="text-red"></span>
             </div>
         </div>
 
